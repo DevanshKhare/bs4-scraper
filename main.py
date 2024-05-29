@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup, SoupStrainer
 
-def extract_content(website, target_words=["ai", "hr"]):
+def extract_content(website):
 
     extracted_content = []
 
