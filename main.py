@@ -48,3 +48,5 @@ for website in websites:
     content = extract_content(website)
     all_content.extend(content)
 
+with open("output.txt", "w", encoding='utf-8') as file:
+    file.write("\n".join(all_content))
